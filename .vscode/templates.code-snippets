@@ -64,14 +64,14 @@
 	"add player (minecraft)": {
 		"scope": "html",
 		"prefix": "minecraft player",
-		"body": "<a href=\"${2:SOCIAL_URL}\" target=\"_blank\" rel=\"noreferrer noopener\"><img src=\"https://mineskin.eu/helm/${1:MC_NAME}/16\" title=\"${1:MC_NAME}\"></a>$0",
+		"body": "<a href=\"${2:SOCIAL_URL}\" target=\"_blank\" rel=\"noreferrer noopener\"><img src=\"https://mc-heads.net/avatar/${1:MC_UUID}/16\" title=\"${1:MC_NAME}\"></a>$0",
 		"description": "add minecraft player to project"
 	},
 
 	"add player (minecraft, no socials)": {
 		"scope": "html",
 		"prefix": "minecraft player nosocials",
-		"body": "<a style=\"cursor: default;\"><img src=\"https://mineskin.eu/helm/${1:MC_NAME}/16\" title=\"${1:MC_NAME}\"></a>$0",
+		"body": "<a style=\"cursor: default;\"><img src=\"https://mc-heads.net/avatar/${1:MC_UUID}/16\" title=\"${1:MC_NAME}\"></a>$0",
 		"description": "add minecraft player without social media link to project"
 	},
 
